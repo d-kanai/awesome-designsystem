@@ -1,0 +1,13 @@
+{
+  "codeConnect": {
+    "include": ["src/components/**/*.tsx"],
+    "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "**/node_modules/**"],
+    "parser": "react",
+    "label": "React",
+    "importType": "esm",
+    "importPaths": {
+      "src/components/*": "@awesome/design-system"
+    },
+    "docs": "https://gitlab.com/YOUR_ORG/awesome-designsystem"
+  }
+}
