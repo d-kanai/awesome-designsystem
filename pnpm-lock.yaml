@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@figma/code-connect':
-        specifier: ^1.3.2
+        specifier: ~1.3.9
         version: 1.3.10
       '@storybook/react':
         specifier: ^10.0.8

@@ -122,7 +122,18 @@ pnpm typecheck
 ```bash
 # Code Connectの公開
 pnpm figma:connect:publish
+
+# 特定ディレクトリのみ公開
+pnpm figma:connect:publish:dir
+
+# Code Connectの削除
+pnpm figma:connect:unpublish
+
+# 特定ノードのCode Connect削除
+pnpm figma:connect:unpublish:node
 ```
+
+環境変数 `FIGMA_ACCESS_TOKEN` を設定してください。
 
 ## 📄 ライセンス
 

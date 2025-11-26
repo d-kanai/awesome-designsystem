@@ -23,6 +23,9 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "figma:connect:publish": "figma connect publish",
+    "figma:connect:publish:dir": "figma connect publish --dir",
+    "figma:connect:unpublish": "figma connect unpublish",
+    "figma:connect:unpublish:node": "figma connect unpublish --label React --node",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
@@ -32,7 +35,7 @@
     "tailwindcss": ">=4.0.0"
   },
   "devDependencies": {
-    "@figma/code-connect": "^1.3.2",
+    "@figma/code-connect": "~1.3.9",
     "@storybook/react": "^10.0.8",
     "@storybook/react-vite": "^10.0.8",
     "@types/node": "^22.10.1",
