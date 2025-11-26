@@ -22,10 +22,10 @@
     "dev": "tsup --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "figma:connect:publish": "figma connect publish",
-    "figma:connect:publish:dir": "figma connect publish --dir",
-    "figma:connect:unpublish": "figma connect unpublish",
-    "figma:connect:unpublish:node": "figma connect unpublish --label React --node",
+    "figma:connect:publish": "export $(cat .env 2>/dev/null | xargs) && figma connect publish",
+    "figma:connect:publish:dir": "export $(cat .env 2>/dev/null | xargs) && figma connect publish --dir",
+    "figma:connect:unpublish": "export $(cat .env 2>/dev/null | xargs) && figma connect unpublish",
+    "figma:connect:unpublish:node": "export $(cat .env 2>/dev/null | xargs) && figma connect unpublish --label React --node",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {

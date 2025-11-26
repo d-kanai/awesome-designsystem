@@ -119,6 +119,18 @@ pnpm typecheck
 
 ## 🔗 Figma Code Connect
 
+### セットアップ
+
+```bash
+# .env.exampleをコピー
+cp .env.example .env
+
+# FIGMA_ACCESS_TOKENを設定
+# Figma > Settings > Personal Access Tokens で取得
+```
+
+### コマンド
+
 ```bash
 # Code Connectの公開
 pnpm figma:connect:publish
@@ -132,8 +144,6 @@ pnpm figma:connect:unpublish
 # 特定ノードのCode Connect削除
 pnpm figma:connect:unpublish:node
 ```
-
-環境変数 `FIGMA_ACCESS_TOKEN` を設定してください。
 
 ## 📄 ライセンス
 
